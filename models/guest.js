@@ -4,7 +4,7 @@ const guestSchema = mongoose.Schema({
   email: String,
   name: String,
   id: String,
-  numberOfGuest: String,
+  guest: String,
   message: String,
 });
 
